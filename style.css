@@ -100,6 +100,9 @@ li.list-item {
   list-style: none;
   margin: 1.5em 0;
 }
+.desktop{
+display: none;
+}
 @media (min-width: 580px) {
   .list {
     display: flex;
@@ -108,6 +111,9 @@ li.list-item {
   }
   li.list-item {
     margin: 0 1.5em;
+  }
+  .desktop{
+    display: none;
   }
 }
 @media (min-width: 990px) {
@@ -157,5 +163,11 @@ li.list-item {
   }
   li.list-item p {
     font-size: .78rem;
+  }
+  .desktop{
+    display: block;
+  }
+  .mobile{
+    display: none;
   }
 }
